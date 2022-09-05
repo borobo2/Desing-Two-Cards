@@ -1,0 +1,16 @@
+.stick-color {
+    left: inherit;
+    left: 60px;
+}
+
+
+.card-proyects {
+   position: relative;
+   left: 17vw;
+   margin-top: 90px;
+}
+.card-suscription {
+    position: relative;
+    right: 19vw;
+    margin-bottom: 90px;
+}

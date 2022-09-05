@@ -1,0 +1,30 @@
+body {
+    line-height: 20px;
+}
+.stick-color {
+    left: 100px;
+}
+
+.container-cards {
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-proyects {
+    align-self:flex-start;
+    margin-top: 100px;
+}
+.card-proyects__button {
+    padding: 6px;
+}
+.card-suscription {
+    align-self: flex-end;
+    margin-bottom: 100px;
+}
+.card-suscription p + p {
+    margin-top: 10px;
+}
+.card-suscription__button {
+    margin-top: 15px;
+    padding: 7px;
+}

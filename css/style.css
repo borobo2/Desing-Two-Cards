@@ -1,0 +1,130 @@
+:root {
+    --main-color: #2B2B3D;
+    --secundary-color: #E89873;
+    --text-color: #9494AC;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: var(--main-color);
+    color: var(--text-color);
+}
+a {
+    text-decoration: none;
+}
+
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.stick-color {
+    position: relative;
+    width: 3vmin;
+    margin: 0 auto;
+    background-color: var(--secundary-color);
+}
+.container-cards {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100vh;
+}
+
+.card-proyects {
+    width: 90%;
+    max-width: 450px;
+    height: 180px;
+    margin: 0 auto;
+    padding: 40px 35px;
+    border-radius: 10px;
+    background-color: #2f2f42;
+    box-shadow: 10px 20px 30px 0 rgba(0, 0, 0, 0.2);
+}
+.card-proyects div {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.card-proyects div b {
+    font-size: 1.4rem;
+    color: #fff;
+}
+.card-proyects div a {
+    font-size: 1.2rem;
+    color: var(--secundary-color);
+}
+.card-proyects p {
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+.card-proyects__button {
+    display: block;
+    width: 130px;
+    height: 30px;
+    margin-top: 13px;
+    padding-top: 8px;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: var(--secundary-color);
+    border-radius: 2px;
+    color: #fff;
+}
+.card-proyects__button:hover {
+    background-color: #fff;
+    color: var(--secundary-color);
+}
+
+.card-suscription {
+    width: 70%;
+    max-width: 250px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 35px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #2f2f42;
+    box-shadow: 10px 20px 20px 0 rgba(0, 0, 0, 0.2);
+}
+.card-suscription b {
+    font-size: 1.4rem;
+    color: #fff;
+}
+.card-suscription .card__price {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #fff;
+}
+.card-suscription p + p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+.card-suscription__button {
+    display: block;
+    width: 130px;
+    height: 34px;
+    margin: 20px auto;
+    padding-top: 9px;
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 2px;
+    background-color: var(--main-color);
+    color: var(--secundary-color);
+    border: 1px solid var(--secundary-color);
+}
+.card-suscription__button:hover {
+    background-color: var(--secundary-color);
+    color: #fff;
+}
